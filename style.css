@@ -4,6 +4,39 @@
     box-sizing: border-box;
 }
 
-li {
-    list-style: none;    
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 35vw;
 }
+
+header {
+    background-color: rgb(240, 217, 157);
+}
+
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.2rem 0;
+}
+
+/* .popup {
+    position: relative;
+    cursor: pointer;
+}
+
+.popuptext {
+    visibility: hidden;
+    position: absolute;
+}
+
+.show {
+    visibility: visible;
+} */
